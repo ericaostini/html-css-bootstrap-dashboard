@@ -29,6 +29,8 @@ main{
 #side-bar{
     height: 100%;
     width: 150px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--color-side-bar);
 }
 #main-content{
     width: calc(100% - 150px);
