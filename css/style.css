@@ -35,6 +35,7 @@ main{
 #main-content{
     width: calc(100% - 150px);
     height: 100%;
+    overflow-y: auto;
 }
 .top-main{
     width: 100%;
