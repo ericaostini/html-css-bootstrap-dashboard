@@ -29,15 +29,20 @@ main{
     flex-flow: row nowrap;
 }
 #side-bar{
-    /* height: 100%;
-    width: 150px; */
+    height: 100%;
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--color-side-bar);
 }
+.top-side{
+    height: calc(100% - 50px);
+}
+.bottom-side{
+    height: 50px;
+}
+
 #main-content{
     flex-grow: 1;
-    /* width: calc(100% - 150px);
-    height: 100%; */
+    height: 100%;
     overflow-y: auto;
 }
 .top-main{
