@@ -51,14 +51,17 @@ main{
 .bottom-main{
     width: 100%;
 }
-.new-student:after{
+/* .new-student:after{
     content: "+";
     display: inline-block;
     border: 1px solid white;
     border-radius: 5px;
     margin: 25px;
     padding: 5px 15px;
-}
+} */
 .my-grey-bg{
     background-color: rgba(0, 0, 0, 0.272);
+}
+.my-font-small-size{
+    font-size: 10px;
 }
