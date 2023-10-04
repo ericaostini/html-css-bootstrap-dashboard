@@ -65,3 +65,8 @@ main{
 .my-font-small-size{
     font-size: 10px;
 }
+.img-class img{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
