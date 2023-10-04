@@ -22,11 +22,38 @@
                         <input class="form-control opacity-50 bg-secondary-subtle form-control-sm" type="text" placeholder="Prova a cercare: Lezioni di Laravel">
                     </div>
                     <div class="col-lg-2 col-md-1 col-sm-1">
-                        <a href="#" class="ps-lg-3 link-dark"><i class="fa-solid fa-bars d-sm-none d-lg-inline-block"></i></a>
-                        <a href="#" class="ps-lg-3 link-dark"><i class="fa-solid fa-circle-question d-sm-none d-lg-inline-block"></i></a>
-                        <a href="#" class="ps-lg-3 link-dark"><i class="fa-solid fa-ellipsis-vertical d-sm-none d-lg-inline-block"></i></a>
-                        <a href="#" class="ps-lg-3 link-warning"><i class="fa-solid fa-bell"></i></a>
+                        <!-- <button type="button" class="btn">
+                            <i class="fa-solid fa-bars d-sm-none d-lg-inline-block"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fa-solid fa-circle-question d-sm-none d-lg-inline-block"></i>
+                        </button>
+                        <button type="button" class="btn">
+                            <i class="fa-solid fa-ellipsis-vertical d-sm-none d-lg-inline-block"></i>
+                        </button> -->
+                        <button class="btn text-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-bell"></i></button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <h2>Inserisci un nuovo studente</h2>
+                        </div>
+                        </div>
                     </div>
+                        <!-- <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" class="ps-lg-3 link-warning">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                              ...
+                            </div>
+                          </div> -->
                 </div>
             </nav>
         </header>
