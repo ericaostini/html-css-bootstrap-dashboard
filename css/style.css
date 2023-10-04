@@ -18,9 +18,12 @@ img{
     width: 100%;
     height: 100vh;
 }
-.img-nav img{
+.img-nav{
     width: 70px;
     height: 70px;
+}
+.img-nav img{
+    display: inline-block;
 }
 #nav-bar{
     width: 100%;
